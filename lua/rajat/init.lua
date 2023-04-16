@@ -1,2 +1,2 @@
-require "rajat.remap"
-require "rajat.set"
+require "rajat.keymaps"
+require "rajat.options"
