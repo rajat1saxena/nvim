@@ -17,6 +17,7 @@ return require('packer').startup(function(use)
 	  run = ':TSUpdate'
   }
 
+
   use('nvim-treesitter/playground')
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
@@ -53,4 +54,6 @@ return require('packer').startup(function(use)
           require("nvim-tree").setup {}
       end
   }
+
+  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 end)

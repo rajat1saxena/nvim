@@ -10,5 +10,5 @@ vim.keymap.set('n', '<leader>rh', ':vertical resize -10<CR>', opts)
 vim.keymap.set('n', '<leader>rl', ':vertical resize +10<CR>', opts)
 
 -- tabs
-vim.keymap.set('n', '<S-h>', ':tabp<CR>') 
-vim.keymap.set('n', '<S-l>', ':tabn<CR>') 
+vim.keymap.set('n', '<S-h>', ':BufferLineCyclePrev<CR>') 
+vim.keymap.set('n', '<S-l>', ':BufferLineCycleNext<CR>') 
